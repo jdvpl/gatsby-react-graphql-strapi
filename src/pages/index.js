@@ -1,7 +1,12 @@
 import React from "react"
+import Layout from "../components/layout"
 
-const index = () => {
-  return <div>index</div>
+const Index = () => {
+  return (
+    <Layout title={"Inicio"}>
+      <h1>index</h1>
+    </Layout>
+  )
 }
 
-export default index
+export default Index
